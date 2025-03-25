@@ -22,7 +22,7 @@ public class E01FlattenBT {
             TreeNode node = stack.pop();
             result.add(node.value);
 
-            if (node.right != null)
+            if (node.right != null) // hola
             {
                 stack.push(node.right);
             }
